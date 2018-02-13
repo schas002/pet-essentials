@@ -4,7 +4,7 @@
 
 This is a list of subroutines of various utility in Commodore home computer programs.
 
-Because not everyone has time to crack out their PET manual (which is probably placed aside your computer at all times) just to find out how does one clear the screen.
+Because not everyone has time to crack out their PET manual (which is probably placed aside your computer at all times) just to find out how does one clear the screen. And there is no time for debugging timing five minutes into a demo prod you're making.
 
 ## Install
 
@@ -19,6 +19,7 @@ gosub 60xxx
 ```
 
 60001. **cls** - prints chr$147 to clear the screen
+60002. **wait** - wait `sc` secs, `sc` is a variable set to a float
 
 ## Maintainer
 

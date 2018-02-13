@@ -7,3 +7,6 @@
 
 61001 rem cls - prints chr$147 to clear the screen
 60001 print chr$(147) : return
+
+61002 rem wait - wait sc secs, sc is a variable set to a float
+60002 for sci = 1 to int(725.0 * sc) : next sci : return
