@@ -18,7 +18,7 @@ And yes, you can selectively use various essentials (however, [you still require
 gosub 60xxx
 ```
 
-- 60001. **cls** - prints chr$147 to clear the screen
+60001. **cls** - prints chr$147 to clear the screen
 
 ## Maintainer
 
